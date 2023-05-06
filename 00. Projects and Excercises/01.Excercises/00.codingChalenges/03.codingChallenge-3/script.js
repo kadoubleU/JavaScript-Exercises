@@ -62,9 +62,9 @@ console.log("BONUS EXCERCISE 1");
 const dolphinBonus1AverageScore = (97 + 112 + 101) / 3;
 const koalasBonus1AverageScore = (109 + 95 + 123) / 3;
 
-if ((dolphinBonus1AverageScore > koalasBonus1AverageScore) && (dolphinBonus1AverageScore > 100)) {
+if ((dolphinBonus1AverageScore > koalasBonus1AverageScore) && (dolphinBonus1AverageScore >= 100)) {
     console.log(`The Dolphins are WINNERS with average score ${dolphinBonus1AverageScore.toFixed(2)} 🥇`);
-}else if ((dolphinBonus1AverageScore < koalasBonus1AverageScore) && (dolphinBonus1AverageScore > 100)) {
+}else if ((dolphinBonus1AverageScore < koalasBonus1AverageScore) && (dolphinBonus1AverageScore >= 100)) {
     console.log(`The Koalas are WINNERS with average score ${koalasBonus1AverageScore.toFixed(2)} 🥇`);
 }else if(dolphinBonus1AverageScore === koalasBonus1AverageScore) {
     console.log("There is DRAW =");
@@ -79,10 +79,12 @@ console.log("BONUS EXCERCISE 2");
 const dolphinBonus2AverageScore = (97 + 112 + 101) / 3;
 const koalasBonus2AverageScore = (109 + 95 + 106) / 3;
 
-if ((dolphinBonus2AverageScore > koalasBonus2AverageScore) && (dolphinBonus2AverageScore > 100)) {
+if ((dolphinBonus2AverageScore > koalasBonus2AverageScore) && (dolphinBonus2AverageScore >= 100)) {
     console.log(`The Dolphins are WINNERS with average score ${dolphinBonus1AverageScore.toFixed(2)} 🥇`);
-}else if ((dolphinBonus2AverageScore < koalasBonus2AverageScore) && (dolphinBonus2AverageScore > 100)) {
+}else if ((dolphinBonus2AverageScore < koalasBonus2AverageScore) && (dolphinBonus2AverageScore >= 100)) {
     console.log(`The Koalas are WINNERS with average score ${koalasBonus2AverageScore.toFixed(2)} 🥇`);
-}else if((dolphinBonus2AverageScore === koalasBonus2AverageScore) && (dolphinBonus2AverageScore > 100) && (koalasBonus2AverageScore)) {
+}else if((dolphinBonus2AverageScore === koalasBonus2AverageScore) && (dolphinBonus2AverageScore >= 100) && (koalasBonus2AverageScore >= 100)) {
     console.log(`There is DRAW =. The average result for the two teams is: ${dolphinBonus2AverageScore.toFixed(2)}`);
+}else {
+    console.log("No one wins the trophy. 🏆");
 }
