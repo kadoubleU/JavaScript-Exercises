@@ -14,3 +14,5 @@ population = 130;
 const info2 = (population >= 30) ? "above average" : "below average";
 
 console.log(`${country}'s population is ${info2}.`);
+
+//END
