@@ -22,3 +22,5 @@ let tip3 = (bill3 >= 50 && bill3 <= 300) ? (bill3 * (15/100)) : (bill3 * (20/100
 console.log(`The bill was ${bill1}, the tip was ${tip1.toFixed(2)} and the total value is ${(bill1+tip1).toFixed(2)}`);
 console.log(`The bill was ${bill2}, the tip was ${tip2.toFixed(2)} and the total value is ${(bill2+tip2).toFixed(2)}`);
 console.log(`The bill was ${bill3}, the tip was ${tip3.toFixed(2)} and the total value is ${(bill3+tip3).toFixed(2)}`);
+
+//end
